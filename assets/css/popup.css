@@ -1,0 +1,73 @@
+/*
+Template Name: Xadmino
+File: Main Css File
+*/
+/*  Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Prompt:400,500,600,700|Roboto');
+/*
+ - Buttons
+  - Panels
+  - Portlets
+  - Checkbox and Radio
+  - Progressbars
+  - Tables
+  - Form Elements
+  - Calendar
+  - Widgets
+  - Sweet Alerts
+  - Maps
+  - Email
+  - Timeline
+  - Charts
+  - Count Down
+  - Gallery
+  - Maintenance
+  - Account Pages
+  - Invoice
+  - Menu
+*/
+/* ==============
+  General
+===================*/
+
+.md-form{
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.md-form .form-control {
+    box-sizing: border-box !important;
+}
+
+.md-form .form-control {
+    height: auto;
+    padding: 0.6rem 0 0.4rem 0;
+    margin: 0 0 0.5rem 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+}
+
+.md-form>label {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.md-form label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    color: #757575;
+    cursor: text;
+}

@@ -1,0 +1,54 @@
+
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 2s 2s, opacity 2s linear;
+    
+  }
+
+  .kanban-entry {
+    border: 1px solid #337ab7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    opacity: 1;
+  }
+  
+  .kanban-entry-center h5 {
+    color: #337ab7;
+  }
+  
+  .kanban-details {
+    margin-top: 20px;
+    padding: 3px;
+    display: block;
+  }
+
+  .kanban-details2 {
+   
+    padding: 3px;
+    display: block;
+  }
+  
+  .panel-body {
+    max-height: 500px !important;
+  }
+
+  .panel-cards {
+    max-height: 300px !important;
+    overflow: scroll;
+  }
+
+  .editTitulo {
+    width: 100%;
+  }
+  
+  .editData {
+    width: 40%;
+  }
+  
+  .editResponsavel {
+    width: 40%;
+    float:right;
+  }

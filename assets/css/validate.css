@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+
+/* Simulação dos inputs error e success (Begin) */
+
+
+.form-row.success input {
+    border: 3px solid #4ECA64;
+}
+
+
+.form-row.error input {
+    border: 3px solid #Db5A5A;
+}
+
+.form-row.success i .img-success {
+    visibility: visible;
+}
+
+.form-row.error i .img-error {
+    visibility: visible;
+}
+
+.form-row.error small {
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+/* Simulação dos inputs error e success (End) */
